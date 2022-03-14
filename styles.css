@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: rgb(184, 26, 26);
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+form {
+	background-color: rgb(192, 40, 40);
+	box-shadow: 0 0 15px 1px #000;
+	padding: 10px;
+	margin-top: 60px;
+	border-radius: 15px;
+	position: relative;
+}
+.home {
+	position: absolute;
+	right: 25px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+input {
+	padding: 5px 10px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+.name,
+.add-info,
+.subscribtion,
+.body-info,
+.range {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.body-info,
+.add-info {
+	margin: 30px 0;
+}
+.gender {
+	display: flex;
+}

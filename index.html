@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Super Gym</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<form>
+				<h2 style="text-align: center; margin-bottom: 40px">
+					<a href="/home.html" class="home">Go home page</a>
+					Gym Form
+				</h2>
+				<div class="name">
+					<div class="fname">
+						<label for="fname"> First name </label>
+						<input
+							type="text"
+							name="firtsName"
+							id="fname"
+							placeholder="Your first name..."
+							autocomplete="off"
+						/>
+					</div>
+					<div class="fname">
+						<label for="lname"> Last name </label>
+						<input
+							type="text"
+							name="lastName"
+							id="lname"
+							placeholder="Your last name..."
+							autocomplete="off"
+						/>
+					</div>
+				</div>
+				<div class="add-info">
+					<div class="fname">
+						<label for="address"> Your address </label>
+						<input
+							type="text"
+							name="address"
+							id="address"
+							placeholder="Your address..."
+							autocomplete="off"
+						/>
+					</div>
+					<div class="fname">
+						<label for="phone"> Phone number </label>
+						<input
+							type="number"
+							name="phone"
+							id="phone"
+							placeholder="Your phone number..."
+							autocomplete="off"
+						/>
+					</div>
+				</div>
+				<div class="subscribtion">
+					<div class="fname">
+						<label for="username"> Your username </label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Your username..."
+							autocomplete="off"
+						/>
+					</div>
+					<div class="fname">
+						<label for="password"> Your password </label>
+						<input
+							type="password"
+							name="password"
+							id="password"
+							placeholder="Your password..."
+							autocomplete="off"
+						/>
+					</div>
+				</div>
+				<div class="body-info">
+					<div class="gender">
+						<div class="fname">
+							<label for="weight">Weight</label>
+							<div class="range">
+								<p>40</p>
+								<input
+									type="range"
+									name="weight"
+									id="weight"
+									min="40"
+									step="5"
+									max="200"
+									value="60"
+								/>
+								<p>200</p>
+							</div>
+						</div>
+					</div>
+					<div class="gender">
+						<div class="fname">
+							<label for="male">Male</label>
+							<input
+								type="radio"
+								name="gender"
+								value="male"
+								id="male"
+							/>
+						</div>
+						<div class="fname">
+							<label for="female">Female</label>
+							<input
+								type="radio"
+								value="female"
+								name="gender"
+								id="female"
+							/>
+						</div>
+					</div>
+					<div class="gender">
+						<div class="fname">
+							<label for="coach">Coach</label>
+							<input type="checkbox" name="coach" id="coach" />
+						</div>
+						<div class="fname">
+							<label for="clothes">Clothes</label>
+							<input
+								type="checkbox"
+								name="clothes"
+								id="clothes"
+							/>
+						</div>
+						<div class="fname">
+							<label for="pool">Swimming pool</label>
+							<input type="checkbox" name="pool" id="pool" />
+						</div>
+					</div>
+				</div>
+				<div class="name">
+					<input type="submit" value="Submit form" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
